@@ -1,0 +1,33 @@
+.companies-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.companies-con p{
+    font-size: 20px;
+    color: #00000098;
+    margin-top: 15px;
+}
+.companies-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.company-item{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+.company-item img{
+    width: 38px;
+    height: 38px;
+    margin-right: 3px;
+}
+.company-item h3{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Roboto;
+}

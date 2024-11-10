@@ -1,0 +1,78 @@
+.heroheader-con{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heroheader-text-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.dashboard-con{
+    background-color: rgba(217, 187, 237, 0.318);
+    border-style: solid;
+    border-color: rgb(202, 142, 248);
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    padding: 5px 35px;
+    border-radius: 28px;
+}
+.new-feature{
+    background-color: #ffffff;
+    border-color: rgb(131, 101, 156);
+    color: blueviolet;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 18px;
+}
+.check-text{
+    color: blueviolet;
+    margin-left: 8px;
+    font-size:15px;
+}
+.rightarrow{
+    color: blueviolet;
+    margin-left: 8px;
+}
+.hero-main-heading{
+    font-size: 45px;
+    margin: 8px;
+}
+.hero-des{
+    max-width: 580px;
+    text-align: center;
+    color: #000000a1;
+}
+.demo-btns{
+    display: flex;
+    margin: 10px;
+}
+.demo{
+    border-color: #00000089;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    color: #000000;
+    margin-right:10px ;
+}
+.signup{
+    background-color: rgb(91, 26, 153);
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.heroheader-image{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.heroheader-image img{
+    width: 90%;
+}
+
