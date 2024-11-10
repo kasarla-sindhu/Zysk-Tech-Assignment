@@ -6,6 +6,8 @@ import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import Navbar from '../Navbar/Navbar'
 import Companies from '../Companies/Companies'
 import Features from '../Features/Features'
+import Sisyphus from '../Sisyphus/Sisyphus'
+import CuttingFeature from '../CuttingFeature/CuttingFeature'
 
 
 const Heroheader = () => {
@@ -30,6 +32,8 @@ const Heroheader = () => {
         </div>
         <Companies/>
         <Features/>
+        <Sisyphus/>
+        <CuttingFeature/>
     </div>
   )
 }

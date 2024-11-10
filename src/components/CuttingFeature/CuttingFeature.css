@@ -1,0 +1,35 @@
+.cef-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px  40px;
+    gap: 20px;
+}
+
+.cef-con h1{
+    color: #000000;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.cef-con p{
+    color: #0000005c;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    max-width: 600px;
+    text-align: center;
+}
+.cef-con img{
+    width: 80%;
+}
+.cef-con .featureis{
+    color: rgb(101, 10, 101);
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: rgba(220, 213, 220, 0.91);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
