@@ -1,0 +1,74 @@
+.faq{
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.faq h1{
+    margin-bottom: 5px;
+    color: #000000d8;
+    align-self: center;
+}
+.faq p{
+    padding: 10px 0px;
+    align-self: center;
+    color: #000000b7;
+    font-size: 18px;
+}
+.faqs-con{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.faq-con{
+    padding: 3px  15px;
+}
+.q-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.q-con button{
+    width: 25px;
+    height: 25px;
+}
+.q-con h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000cc;
+}
+.faq-con p{
+    width: 95%;
+    font-size: 15px;
+}
+hr{
+    height: 1px;
+    margin-bottom: 5px;
+    color: #000000d8;
+}
+.still-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+}
+.still-con img{
+    width: 150px;
+    height: 100px;
+
+}
+.still-con h1{
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.still-con button{
+    background-color: rgb(91, 26, 153);
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 2px;
+    margin-top: 8px;
+}

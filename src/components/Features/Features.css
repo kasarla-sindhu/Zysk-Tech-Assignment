@@ -35,6 +35,7 @@
     flex-direction: column;
     align-items: center;
     width: 360px;
+    padding: 20px 0px;
 }
 .feature-item h2{
     font-family: Roboto;

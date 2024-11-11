@@ -8,6 +8,10 @@ import Companies from '../Companies/Companies'
 import Features from '../Features/Features'
 import Sisyphus from '../Sisyphus/Sisyphus'
 import CuttingFeature from '../CuttingFeature/CuttingFeature'
+import FAQ from '../FAQ/FAQ'
+import Blog from '../Blog/Blog'
+import Trail from '../Trail/Trail'
+
 
 
 const Heroheader = () => {
@@ -34,6 +38,9 @@ const Heroheader = () => {
         <Features/>
         <Sisyphus/>
         <CuttingFeature/>
+        <FAQ/>
+        <Blog/>
+        <Trail/>
     </div>
   )
 }

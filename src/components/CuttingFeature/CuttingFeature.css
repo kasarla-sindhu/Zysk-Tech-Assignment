@@ -5,6 +5,7 @@
     justify-content: center;
     padding: 0px  40px;
     gap: 20px;
+    max-width: 95%;
 }
 
 .cef-con h1{
@@ -12,6 +13,7 @@
     font-size: 28px;
     font-family: Roboto;
     font-weight: bold;
+    text-align: center;
 }
 .cef-con p{
     color: #0000005c;
@@ -22,7 +24,7 @@
     text-align: center;
 }
 .cef-con img{
-    width: 80%;
+    max-width: 80%;
 }
 .cef-con .featureis{
     color: rgb(101, 10, 101);
@@ -32,4 +34,37 @@
     background-color: rgba(220, 213, 220, 0.91);
     padding: 2px 20px;
     border-radius: 15px;
+}
+.a-container{
+    margin-top: 70px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap
+}
+.feature-itemis{ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 360px;
+    padding: 20px 0px;
+}
+.feature-itemis p{
+    color: #000000ae;
+    font-size: 17px;
+}
+.learn-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.learn-con p{
+    color: blueviolet;
+    font-size: 15px;
+}
+.rightarrow{
+    color: blueviolet;
+    margin-left: 8px;
+    font-size: 15px;
 }
